@@ -20,7 +20,7 @@ const NavTabs = ({ activeTab, onTabChange }: NavTabsProps) => {
   return (
     <div className="w-full bg-black/70 backdrop-blur-lg sticky top-0 z-10 border-b border-primary/10">
       <div className="max-w-6xl mx-auto px-4 py-1">
-        <div className="flex items-center justify-center md:justify-start space-x-1 md:space-x-0">
+        <div className="flex items-center justify-center space-x-1">
           {tabs.map((tab) => (
             <button
               key={tab.id}

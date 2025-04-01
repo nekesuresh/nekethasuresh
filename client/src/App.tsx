@@ -181,7 +181,9 @@ function App() {
           </section>
           
           {/* Navigation Tabs - Sticky when scrolling */}
-          <NavTabs activeTab={activeTab} onTabChange={handleTabChange} />
+          <div className="sticky top-0 z-20 bg-black flex justify-center">
+            <NavTabs activeTab={activeTab} onTabChange={handleTabChange} />
+          </div>
           
           {/* Content Section */}
           <main className="flex-grow max-w-6xl mx-auto px-4 py-8">

@@ -32,7 +32,6 @@ const Projects = () => {
                 <div className="mb-4 flex-grow">
                   <ul className="space-y-2">
                     <li className="text-white/80 flex items-start">
-                      <span className="text-primary mr-2">•</span>
                       <span>{project.description}</span>
                     </li>
                   </ul>

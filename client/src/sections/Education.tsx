@@ -44,16 +44,18 @@ const Education = () => {
                 </div>
               )}
               {edu.campusInvolvement && (
-                <div>
-                  <h4 className="text-white font-medium mb-2">Campus Involvement & Achievements:</h4>
-                  <ul className="space-y-2">
+                <div className="mb-4">
+                  <h4 className="text-white font-medium mb-2">Campus Involvement:</h4>
+                  <div className="flex flex-wrap gap-2">
                     {edu.campusInvolvement.map((involvement, idx) => (
-                      <li key={idx} className="text-white/80 flex items-start">
-                        <span className="text-primary mr-2">•</span>
-                        <span>{involvement}</span>
-                      </li>
+                      <span 
+                        key={idx} 
+                        className="inline-block px-3 py-1.5 rounded-full bg-primary/10 text-white/90 text-xs font-medium hover:bg-primary/20 transition-colors"
+                      >
+                        {involvement}
+                      </span>
                     ))}
-                  </ul>
+                  </div>
                 </div>
               )}
             </div>

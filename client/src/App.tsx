@@ -131,7 +131,7 @@ function App() {
                   MSCS Student & AI Enthusiast
                 </p>
                 <p className="text-md text-gray-400 max-w-2xl mx-auto">
-                  Charlotte, North Carolina
+                  Dallas, Texas
                 </p>
               </motion.div>
               

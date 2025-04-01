@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-black text-foreground;
+  }
+  
+  :root {
+    --neon-glow: 0 0 5px rgba(138, 43, 226, 0.5), 0 0 10px rgba(138, 43, 226, 0.3), 0 0 15px rgba(138, 43, 226, 0.1);
+    --text-glow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+}
+
+@layer components {
+  .futuristic-title {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, #ffffff, #a855f7, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: pulse 3s infinite;
+    text-shadow: var(--text-glow);
+  }
+  
+  .futuristic-subtitle {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .neon-border {
+    box-shadow: var(--neon-glow);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .neon-border:hover {
+    box-shadow: 0 0 5px rgba(138, 43, 226, 0.8), 0 0 10px rgba(138, 43, 226, 0.5), 0 0 15px rgba(138, 43, 226, 0.3);
+  }
+  
+  .tech-card {
+    backdrop-filter: blur(10px);
+    background: rgba(20, 20, 40, 0.3);
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--neon-glow);
+    border-color: rgba(138, 43, 226, 0.5);
+  }
+  
+  .grid-background {
+    background-size: 50px 50px;
+    background-image: 
+      linear-gradient(to right, rgba(138, 43, 226, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(138, 43, 226, 0.03) 1px, transparent 1px);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease forwards;
+  }
+  
+  .animate-slide-in {
+    animation: slideIn 0.6s ease forwards;
+  }
+  
+  .profile-image {
+    border: 2px solid rgba(138, 43, 226, 0.5);
+    box-shadow: var(--neon-glow);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

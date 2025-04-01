@@ -1,0 +1,51 @@
+NEKETHA SURESH (US Citizen)
+    Charlotte, North Carolina | Linkedin | Github | +1 (704)-222-6867 | sureshneketha@gmail.com	
+
+EDUCATION
+University of North Carolina at Charlotte                                                                                        	 	                   Charlotte, North Carolina          
+Master of Science in Computer Science (GPA: 3.77/4)                                                                                                                                 2023 - Present
+
+Relevant Coursework: AI-Driven Development, Network Based Application Development, Data Structures and Algorithms, Software System Design and Implementation, Database Management Systems, Big Data Analytics, Visual Analytics, Knowledge Discovery in Databases
+
+Vellore Institute of Technology                                                                                               	                                           Chennai, Tamil Nadu   
+Bachelor of Technology in Computer Science and Engineering (GPA: 8.2/10)                                   		                          2019 - 2023  
+SKILLS AND LANGUAGES
+Programming & Web Technologies: Python, Java, JavaScript, HTML, CSS, React.js, Angular, Node.js, Express, Flask, C++
+Data Management & Analysis: MySQL, MongoDB, TensorFlow, PyTorch, Scikit-Learn, Pandas, NumPy, Tableau, PowerBI
+Development Tools & Methodologies: Git, Docker, AWS, Azure, Agile, Scrum, SDLC, UML, DevOps Basics, Cybersecurity Fundamentals
+EXPERIENCE
+Metayb 												           Chennai, Tamil Nadu
+Machine Learning Intern                                                                                                                       		  	  	    May - Nov 2022 
+Engineered a custom time-series database engine, boosting data ingestion speed by 30%, critical for real-time analytics.
+Implemented an LSTM neural network for sales forecasting, achieving 87% prediction accuracy, significantly enhancing decision-making processes.
+Applied machine learning techniques, such as linear regression, to forecast customer lifetime value with 95% accuracy, directly supporting targeted customer retention and precision marketing initiatives.
+Developed a logistic regression model to reduce customer churn, cutting churn rates by 10% and bolstering retention through data-driven insights.
+LingaTech                                                                                                         		            			Pennsylvania, United States 
+Data Analyst Intern                                                                                                      		    	                             Nov 2021 - Feb 2022
+Performed predictive analytics on user behavior data using the Naive Bayes algorithm, enhancing forecast accuracy of business outcomes by 15%.
+Led prescriptive analytics efforts using behavioral data, implementing a decision tree model that improved product satisfaction (measured by Net Promoter Score) by 20% and decreased decision latency by 25%.
+Designed and deployed interactive data visualization dashboards in Tableau, utilizing API integrations for enhanced user experience and operational efficiency.
+
+Eminence Tech											         Bangalore, Karnataka
+Software Development Intern                                                                                                           	   	      	      	        Jun - Sep 2021
+Transformed business requirements into actionable technical specifications using UML diagrams, facilitating agile software development for a new pharmacy management system.
+Executed full-stack development with JavaScript, Node.js, and React, optimizing system scalability and user engagement.
+Enhanced system performance by 30% through strategic middleware management and asynchronous programming in Node.js.
+Utilized React.js profiling tools to optimize front-end performance, achieving a 25% efficiency increase in system operations.
+
+PROJECTS
+IntelliClaim.ai 
+AI-driven Insurance Claims Assessment Solution
+Engineered and deployed IntelliClaim.ai, utilizing Python, TensorFlow, and React to incorporate multimodal AI, enhancing the accuracy of insurance claims processing and reducing fraud identification false positives by 30%.
+Analyzed over 1TB of historical claim data using advanced machine learning and anomaly detection algorithms, significantly improving fraud detection accuracy.
+Developed a scalable user interface with RESTful API integration, providing seamless access and facilitating expansion into multiple insurance sectors.
+Dr. COCO 
+AI-Powered Mental Health Support Tool for Children
+Engineered Dr. COCO, an AI chatbot leveraging Python, Flask, and OpenAI to identify early mental health issues in children, utilizing interactive games and storytelling for engagement.
+Designed and integrated a user-centric web interface using HTML, CSS, and JavaScript, crafting appealing and engaging visuals specifically tailored for children, enhancing user interaction and experience.
+Enhanced diagnostic precision by incorporating NLP to assess emotional and social responses. Conducted extensive research, analyzing over 200 academic papers to develop a robust questionnaire dataset, adhering to strict data protection standards throughout the process.
+GenAI 
+Generative AI Trend Visualization and Analysis                          
+Developed a Single Page Application (SPA) using Angular and Node.js to visualize trends in generative artificial intelligence and automation across various industries.
+Implemented dynamic charts using Chart.js, integrated secure JWT-based authentication, and established seamless frontend-backend communication via RESTful APIs.
+

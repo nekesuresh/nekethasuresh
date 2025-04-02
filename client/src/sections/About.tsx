@@ -52,29 +52,29 @@ const About = () => {
               <div className="lg:w-3/4">                
                 <div className="space-y-4 text-white/80">
                   <p className="text-white/80">
-                    I'm a Computer Science graduate student at the University of North Carolina at Charlotte with a passion for developing intelligent solutions that solve real-world problems. With experience in machine learning, data analysis, and full-stack development, I bring a comprehensive approach to software engineering challenges.
+                    I am a graduate student in Computer Science at the University of North Carolina at Charlotte, with a strong passion for using data to drive business insights and solve real-world challenges. My experience spans data analysis, machine learning, and data-driven decision-making, which I apply to improve business outcomes and operational efficiency.
                   </p>
                   <p className="text-white/80">
-                    My professional journey includes multiple internships where I've applied machine learning techniques to enhance business outcomes, developed responsive web applications, and engineered data-driven solutions that produce tangible results.
+                    During my internships, I have worked extensively on analyzing user behavior, building predictive models, and developing actionable insights that directly influence business strategies. I have expertise in data analysis using tools like Python, Pandas, Tableau, and PowerBI, and have a track record of optimizing systems and processes through data-driven approaches.
                   </p>
                   <p className="text-white/80">
-                    I'm constantly exploring new technologies and frameworks to stay at the cutting edge of software development, with a particular interest in artificial intelligence and its applications across various domains.
+                    I thrive in environments where I can combine my technical skills with my analytical mindset to deliver meaningful results. Whether working with large datasets, creating dashboards, or building predictive models, my goal is to leverage data to inform strategic decisions.
                   </p>
                   
                   <div className="pt-4">
-                    <h3 className="futuristic-subtitle text-xl font-semibold mb-4">Research Interests</h3>
+                    <h3 className="futuristic-subtitle text-xl font-semibold mb-4">Key Strengths</h3>
                     <ul className="space-y-2 list-disc list-inside">
                       <li className="text-white/80">
-                        <span className="text-primary">Machine Learning</span> - Developing models that can learn from data and make intelligent decisions
+                        <span className="text-primary">Data Analytics</span> – Extracting actionable insights from complex datasets to drive business improvements
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Natural Language Processing</span> - Creating systems that can understand and generate human language
+                        <span className="text-primary">Predictive Analytics</span> – Developing models to forecast future trends and behaviors
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Computer Vision</span> - Building algorithms that can interpret and analyze visual data
+                        <span className="text-primary">Business Intelligence</span> – Designing dashboards and reports to empower data-driven decision-making
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Cloud Computing</span> - Leveraging distributed systems for scalable and efficient solutions
+                        <span className="text-primary">Machine Learning</span> – Applying algorithms to optimize processes and predict business outcomes
                       </li>
                     </ul>
                   </div>

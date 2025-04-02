@@ -1,12 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card } from "@/components/ui/card";
-import { resumeData } from "@/data/resumeData";
 import { MapPin, Mail, Phone, AtSign, Code, Star, Book, LineChart } from 'lucide-react';
 
 const About = () => {
-  const { contactInfo } = resumeData;
-  
   return (
     <section className="mb-12 animate-fade-in">
       <motion.div
@@ -52,29 +49,29 @@ const About = () => {
               <div className="lg:w-3/4">                
                 <div className="space-y-4 text-white/80">
                   <p className="text-white/80">
-                    I am a graduate student in Computer Science at the University of North Carolina at Charlotte, with a strong passion for using data to drive business insights and solve real-world challenges. My experience spans data analysis, machine learning, and data-driven decision-making, which I apply to improve business outcomes and operational efficiency.
+                    I'm a Computer Science graduate student at the University of North Carolina at Charlotte, passionate about developing data-driven solutions to solve real-world business challenges. With experience in machine learning, data analysis, and full-stack development, I bring a holistic approach to addressing complex problems.
                   </p>
                   <p className="text-white/80">
-                    During my internships, I have worked extensively on analyzing user behavior, building predictive models, and developing actionable insights that directly influence business strategies. I have expertise in data analysis using tools like Python, Pandas, Tableau, and PowerBI, and have a track record of optimizing systems and processes through data-driven approaches.
+                    Throughout my internships, I’ve applied machine learning techniques to drive business outcomes, developed responsive web applications, and engineered data solutions that deliver measurable results.
                   </p>
                   <p className="text-white/80">
-                    I thrive in environments where I can combine my technical skills with my analytical mindset to deliver meaningful results. Whether working with large datasets, creating dashboards, or building predictive models, my goal is to leverage data to inform strategic decisions.
+                    I’m always exploring new technologies and frameworks to stay at the forefront of data and business innovation, with a particular focus on artificial intelligence and its applications across various domains.
                   </p>
                   
                   <div className="pt-4">
                     <h3 className="futuristic-subtitle text-xl font-semibold mb-4">Key Strengths</h3>
                     <ul className="space-y-2 list-disc list-inside">
                       <li className="text-white/80">
-                        <span className="text-primary">Data Analytics</span> – Extracting actionable insights from complex datasets to drive business improvements
+                        <span className="text-primary">Artificial Intelligence</span> – Leveraging AI techniques to build intelligent systems that automate processes, optimize business operations, and drive innovation.
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Predictive Analytics</span> – Developing models to forecast future trends and behaviors
+                        <span className="text-primary">Machine Learning</span> – Applying algorithms to optimize processes and predict business outcomes.
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Business Intelligence</span> – Designing dashboards and reports to empower data-driven decision-making
+                        <span className="text-primary">Data Analytics</span> – Extracting actionable insights from complex datasets to drive business improvements.
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Machine Learning</span> – Applying algorithms to optimize processes and predict business outcomes
+                        <span className="text-primary">Software Development</span> – Building scalable systems and optimizing performance.
                       </li>
                     </ul>
                   </div>

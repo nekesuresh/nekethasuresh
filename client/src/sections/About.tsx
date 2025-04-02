@@ -62,7 +62,7 @@ const About = () => {
                     <h3 className="futuristic-subtitle text-xl font-semibold mb-4">Key Strengths</h3>
                     <ul className="space-y-2 list-disc list-inside">
                       <li className="text-white/80">
-                        <span className="text-primary">Artificial Intelligence</span> – Leveraging AI techniques to build intelligent systems that automate processes, optimize business operations, and drive innovation.
+                        <span className="text-primary">Artificial Intelligence</span> – Using AI to automate processes, optimize operations, and foster innovation.
                       </li>
                       <li className="text-white/80">
                         <span className="text-primary">Machine Learning</span> – Applying algorithms to optimize processes and predict business outcomes.

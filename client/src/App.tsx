@@ -14,15 +14,13 @@ import Skills from "@/sections/Skills";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import profileImg from "@assets/Untitled design.png";
 
-// Tab types for navigation
 type Tab = 'about' | 'experience' | 'projects' | 'education' | 'skills';
 
 function App() {
-  const [activeTab, setActiveTab] = useState<Tab>('about');
+  const [activeTab, setActiveTab] = useState<Tab>('projects');
   const [loading, setLoading] = useState(true);
   
   useEffect(() => {
-    // Simulate loading time for a more dramatic entrance effect
     const timer = setTimeout(() => {
       setLoading(false);
     }, 1000);
@@ -30,12 +28,10 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
   
-  // Handle tab change
   const handleTabChange = (tab: Tab) => {
     setActiveTab(tab);
   };
 
-  // Render the active section based on tab
   const renderActiveSection = () => {
     switch (activeTab) {
       case 'about':
@@ -49,17 +45,15 @@ function App() {
       case 'education':
         return <Education />;
       default:
-        return <About />;
+        return <Projects />;
     }
   };
 
   return (
     <QueryClientProvider client={queryClient}>
       <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
-        {/* Animated Dots Background */}
         <AnimatedDots />
         
-        {/* Loading Screen */}
         <AnimatePresence>
           {loading && (
             <motion.div 
@@ -86,17 +80,14 @@ function App() {
           )}
         </AnimatePresence>
         
-        {/* Main Content */}
         <motion.div 
           className="relative z-10 flex flex-col min-h-screen"
           initial={{ opacity: 0 }}
           animate={{ opacity: loading ? 0 : 1 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          {/* Hero Section with Profile */}
           <section className="relative z-10 h-[100vh] flex flex-col items-center justify-center px-4 py-0">
             <div className="max-w-6xl mx-auto text-center">
-              {/* Profile Image */}
               <motion.div 
                 className="mb-5"
                 initial={{ scale: 0.9, opacity: 0 }}
@@ -112,7 +103,6 @@ function App() {
                 </div>
               </motion.div>
               
-              {/* Name and Title */}
               <motion.h1 
                 className="futuristic-title text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
                 initial={{ y: 20, opacity: 0 }}
@@ -127,15 +117,24 @@ function App() {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                <p className="futuristic-subtitle text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-2">
-                  MSCS Student & AI Enthusiast
+                <p className="futuristic-subtitle text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-4">
+                  Full Stack & AI Engineer
                 </p>
+                <div className="flex flex-wrap justify-center gap-2 mb-3">
+                  {["Full Stack", "AI/ML", "Founding Engineer", "MS CS"].map((chip) => (
+                    <span 
+                      key={chip}
+                      className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 text-sm font-medium"
+                    >
+                      {chip}
+                    </span>
+                  ))}
+                </div>
                 <p className="text-md text-gray-400 max-w-2xl mx-auto">
-                  Charlotte, North Carolina
+                  San Francisco, CA
                 </p>
               </motion.div>
               
-              {/* Social links */}
               <motion.div 
                 className="mt-6"
                 initial={{ opacity: 0 }}
@@ -143,14 +142,6 @@ function App() {
                 transition={{ duration: 0.8, delay: 0.9 }}
               >
                 <div className="flex justify-center space-x-4 flex-wrap">
-                  <a 
-                    href="https://github.com/nekesuresh" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="tech-card px-4 py-2 rounded-md neon-border m-1"
-                  >
-                    GitHub
-                  </a>
                   <a 
                     href="https://www.linkedin.com/in/nekethasuresh/" 
                     target="_blank" 
@@ -160,15 +151,21 @@ function App() {
                     LinkedIn
                   </a>
                   <a 
-                    href="https://devpost.com/sureshneketha?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" 
+                    href="https://github.com/nekesuresh" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="tech-card px-4 py-2 rounded-md neon-border m-1"
                   >
-                    DevPost
+                    GitHub
                   </a>
                   <a 
-                    href="https://drive.google.com/file/d/1W42YG4UpwcYTGDhQTKGhrmz8SWF8hyTY/view?usp=sharing" 
+                    href="mailto:sureshneketha@gmail.com"
+                    className="tech-card px-4 py-2 rounded-md neon-border m-1"
+                  >
+                    Email
+                  </a>
+                  <a 
+                    href="https://drive.google.com/file/d/1TWwQPAzFNr1XD_Hn3gRXziISrIlvGuI_/view?usp=sharing" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="tech-card px-4 py-2 rounded-md neon-border m-1"
@@ -179,7 +176,6 @@ function App() {
               </motion.div>
             </div>
 
-            {/* Scroll Indicator */}
             <div className="absolute bottom-11 flex flex-col items-center transform translate-y-1/2">
               <p className="text-white/70 text-sm mb-2">Scroll Down</p>
               <div className="w-5 h-5 border-2 border-primary rounded-full flex items-center justify-center animate-bounce">
@@ -188,12 +184,10 @@ function App() {
             </div>
           </section>
           
-          {/* Navigation Tabs - Sticky when scrolling */}
           <div className="sticky top-0 z-20 bg-black flex justify-center">
             <NavTabs activeTab={activeTab} onTabChange={handleTabChange} />
           </div>
           
-          {/* Content Section */}
           <main className="flex-grow max-w-6xl mx-auto px-4 py-8">
             <AnimatePresence mode="wait">
               <motion.div

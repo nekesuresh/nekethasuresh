@@ -1,0 +1,71 @@
+Here's just the content and the swaps to make.
+1. Toggle the active tab
+In your tab nav, swap the classes between the Skills and Projects buttons:
+
+Skills button → change text-white to text-white/60 hover:text-white/90, and remove the active underline div (the <div class="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-primary/50 via-primary to-primary/50"...>).
+Projects button → do the reverse: set className to text-white and add that same underline div.
+
+2. Replace the section header
+
+Selected Projects
+A mix of public, open-source, and client work. Some projects are under NDA — the problem, stack, and outcomes are concrete; client names and screenshots are protected. Happy to walk through any of them on a call.
+
+Change grid from md:grid-cols-3 to md:grid-cols-2 — project cards have more text than skill pills.
+3. Three status badge styles (reuse your pill style)
+
+Live → bg-green-500/10 text-green-400 border border-green-500/30 (add a small pulsing dot)
+Open source → bg-primary/15 text-primary border border-primary/30
+NDA → bg-white/5 text-white/60 border border-white/15
+
+4. The six project cards
+Same fields every time: badge, title, role line, description, tech tags (same purple pill style as your skills), outcome highlight, and either a link or an NDA note.
+
+Card 1 — BlueRobins Platform
+
+Badge: Live
+Period: Dec 2025 — Apr 2026
+Role line: Founding Engineer · UC Berkeley Skydeck Pad-13
+Description: Rebuilt an early-stage codebase into a production-ready Next.js + PostgreSQL system. Shipped first live deployment in 5 weeks and left behind a stable v1 with AI-powered chat in active use by customers.
+Tech: Next.js · PostgreSQL · Stripe · RBAC · LLM chat
+Outcome: v1 shipped in 5 weeks · 4 user roles · 7 Stripe lifecycle events · mentored 3 interns through 30+ PRs
+Link: View live platform → (your BlueRobins URL)
+
+Card 2 — Clinical Triage Tool
+
+Badge: NDA
+Period: May 2023 — May 2025
+Role line: Full Stack Engineer · Healthcare client
+Description: Contributed across React, TypeScript, and Python on a daily-use intake tool serving 150+ clinicians and intake staff across 6 hospital departments. Grew from frontend tickets to owning mid-sized features end-to-end.
+Tech: React · TypeScript · FastAPI · PostgreSQL
+Outcome: Triage intake cut from ~12 min to under 4 min per patient · ~80% recommendation acceptance from nurses
+Note: Screenshots and client name protected — happy to discuss on a call.
+
+Card 3 — RFP Review Tool
+
+Badge: NDA
+Period: May 2025 — Aug 2025
+Role line: AI Intern · Sedna Consulting Group
+Description: Scoped and prototyped an LLM-powered RFP review tool with 6 internal reviewers across 3 review cycles. Owned the feature end-to-end — requirements through deployment and post-launch tuning.
+Tech: Python · FastAPI · LangChain · RAG
+Outcome: ~45% reduction in manual review time on covered workflows
+Note: Internal tool — happy to walk through architecture on a call.
+
+Card 4 — Executive Reporting Layer
+
+Badge: NDA
+Period: Summer 2025
+Role line: AI Intern · Sedna Consulting Group
+Description: Built an integration layer connecting ClickUp, Excel, and SQL sources so executives could pull common reports in seconds instead of waiting on manual data pulls.
+Tech: Python · ClickUp API · SQL · Excel automation
+Outcome: Time-to-data on top 10 queries cut from hours to under 30 seconds
+Note: Internal tool — happy to discuss the integration design.
+
+Card 5 — NACo Interactive AI Game
+
+Badge: Open source
+Period: Summer 2025
+Role line: Designed for the NACo Conference · Sedna
+Description: AI-powered interactive game built to engage conference attendees and capture leads. Designed, built, and demoed the experience on the floor.
+Tech: Svelte · Ollama · Local LLM
+Outcome: 37+ participants engaged at the conference · measurable lift in lead capture
+Link: View on GitHub → https://github.com/nekesuresh

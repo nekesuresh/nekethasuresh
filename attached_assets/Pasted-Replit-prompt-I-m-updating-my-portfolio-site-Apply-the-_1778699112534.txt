@@ -1,0 +1,94 @@
+Replit prompt
+I'm updating my portfolio site. Apply the following changes, preserving the existing dark theme, purple primary color, constellation background, and component patterns (pills, cards, tab nav).
+1. Header tagline chips under my name
+Replace Developer / AI/ML / Analyst / MS CS with: Full Stack · AI/ML · Founding Engineer · MS CS
+2. About Me — full rewrite
+Replace the existing About Me paragraphs with:
+I'm a Full Stack & AI Engineer based in San Francisco. Most recently I was the founding engineer at BlueRobins (UC Berkeley Skydeck), where I rebuilt the platform into a production Next.js + PostgreSQL system and shipped v1 in 5 weeks. Before that I spent two years as a full stack engineer on a clinical triage tool used daily by 150+ clinicians across 6 hospital departments, and a summer at Sedna Consulting building applied AI tools.
+I work across React/Next.js, FastAPI, PostgreSQL, and LLM-powered systems — usually owning features from requirements through deployment.
+I'm currently open to: full-time engineering roles · independent contract & freelance projects.
+Replace the "Key Strengths" bullets with:
+Full Stack Development — React, Next.js, FastAPI, PostgreSQL, end-to-end ownership
+Applied AI — LLM integration, RAG, agentic workflows, AI-powered UX
+Production Shipping — recent v1 from scratch in 5 weeks for an early-stage startup
+Client Collaboration — multi-stakeholder scoping, iteration cycles, post-launch tuning
+3. Skills & Technologies — refresh keywords
+Replace the 3 skill category cards with:
+Programming & Web (purple icon) TypeScript · JavaScript (ES6+) · Python · SQL · React.js · Next.js · Tailwind CSS · HTML5 · CSS3
+Backend & Infrastructure (green icon) Node.js · FastAPI · REST APIs · Webhooks · PostgreSQL · Supabase · Git · CI/CD · Docker
+AI & Software Engineering (purple icon) LangChain · LLM Integration · RAG · Vector Search · OpenAI API · Anthropic API · Prompt Engineering · System Design · Rapid Prototyping
+Use the exact same pill style as the current cards.
+4. Experience tab — replace entirely
+Remove all current roles (Metayb, LingaTech, Eminence Tech, VIT Research Assistant). Replace with these 3:
+BlueRobins — Berkeley, CA · UC Berkeley Skydeck Pad-13 Founding Engineer (Full Stack, Contract) · Dec 2025 to Apr 2026
+Joined as the founding engineer rebuilding the platform from an early-stage codebase into a production-ready Next.js + PostgreSQL system, shipping the first live deployment within 5 weeks and leaving behind a stable v1 with all core features and AI-powered chat in active use by customers
+Designed a multi-role PostgreSQL schema with role-based access control supporting 4 distinct user roles across enrollment, scheduling, and payments
+Built backend infrastructure including Stripe webhook handling for 7 subscription lifecycle events, covering edge cases like failed payments, plan changes, and refunds
+Owned onboarding for 3 interns who joined post-launch, guiding them through 30+ pull request reviews and establishing shared code quality standards
+Sedna Consulting Group — Philadelphia, PA Artificial Intelligence Intern · May 2025 to Aug 2025
+Worked directly with internal stakeholders to scope and prototype an RFP review tool using Python, FastAPI, and LangChain, iterating with feedback from 6 reviewers across 3 review cycles
+Owned the feature end-to-end from gathering requirements through deployment and post-launch tuning, reducing manual review time by ~45% on the workflows it covered
+Built an integration layer connecting ClickUp, Excel, and SQL data sources so executives could pull common reports in seconds, cutting time-to-data from hours to under 30 seconds on the top 10 queries
+Designed and launched an AI-powered interactive game with Ollama and Svelte, showcased at the NACo Conference, engaging 37+ participants and increasing lead captures
+Apollo Trident — Remote Full Stack Software Engineer · May 2023 to May 2025
+Joined as an early engineer contributing to a clinical triage tool used daily by 150+ doctors, nurses, and intake staff across 6 hospital departments
+Worked across the React, TypeScript, and Python stack, including the React intake UI, FastAPI services, and a PostgreSQL schema covering 50+ symptom and vitals fields, growing from frontend tickets to owning mid-sized features end-to-end by year 3
+Sat in on 4 rounds of user testing and a 3-week pilot per major release, working alongside senior engineers to translate clinician and hospital admin feedback into shippable changes
+Contributed to a project that cut average triage intake time from ~12 to under 4 minutes per patient, reached ~80% recommendation acceptance from nurses, and closed most post-launch issues within a day or two
+5. Education tab — fix date
+Change "2023 - present" to "2023 - 2025" for the UNC Charlotte MS in Computer Science.
+6. Featured Projects — major overhaul
+a) Make Projects the active tab (Skills is currently active). Swap the active-state classes (the text-white and the gradient underline div) from Skills to Projects.
+b) Remove the GenAI card entirely.
+c) Add a Status badge to every project card (top-left, above the title). Four badge styles, reusing the existing pill component:
+Live → bg-green-500/10 text-green-400 border border-green-500/30 with a small pulsing dot
+Open source → bg-primary/15 text-primary border border-primary/30
+NDA → bg-white/5 text-white/60 border border-white/15 with a small lock icon
+Academic → bg-blue-500/10 text-blue-400 border border-blue-500/30
+Apply Academic badge to IntelliClaim.ai, Dr. COCO, Antibiotic Resistance Prediction, and K Means Clustering with DTW Metric (no other changes to those cards).
+d) Add these 5 new project cards using the same component pattern as the existing cards (title, subtitle, description, "Technologies:" tag row, external link icon if applicable). Place them at the top of the grid in this order:
+BlueRobins Platform
+Badge: Live
+Subtitle: Founding Engineer · Dec 2025 — Apr 2026
+Description: Rebuilt an early-stage codebase into a production-ready Next.js + PostgreSQL system. Shipped first live deployment in 5 weeks and left behind a stable v1 with AI-powered chat in active use by customers. v1 shipped in 5 weeks · 4 user roles · 7 Stripe lifecycle events · mentored 3 interns through 30+ PRs.
+Technologies: Next.js · PostgreSQL · Stripe · RBAC · LLM chat
+External link → https://my.bluerobins.com
+Clinical Triage Tool
+Badge: NDA
+Subtitle: Full Stack & AI Engineer · May 2023 — May 2025 · Healthcare client
+Description: Contributed across React, TypeScript, and Python on a daily-use intake tool serving 150+ clinicians and intake staff across 6 hospital departments. Grew from frontend tickets to owning mid-sized features end-to-end. Triage intake cut from ~12 min to under 4 min per patient · ~80% recommendation acceptance from nurses. Screenshots and client name protected — happy to discuss on a call.
+Technologies: React · TypeScript · FastAPI · PostgreSQL
+No external link icon
+RFP Review Tool
+Badge: NDA
+Subtitle: AI Intern · Sedna Consulting · May — Aug 2025
+Description: Scoped and prototyped an LLM-powered RFP review tool with 6 internal reviewers across 3 review cycles. Owned the feature end-to-end — requirements through deployment and post-launch tuning. ~45% reduction in manual review time on covered workflows. Internal tool — happy to walk through architecture on a call.
+Technologies: Python · FastAPI · LangChain · RAG
+No external link icon
+Executive Reporting Layer
+Badge: NDA
+Subtitle: AI Intern · Sedna Consulting · Summer 2025
+Description: Built an integration layer connecting ClickUp, Excel, and SQL sources so executives could pull common reports in seconds instead of waiting on manual data pulls. Time-to-data on top 10 queries cut from hours to under 30 seconds. Internal tool — happy to discuss the integration design.
+Technologies: Python · ClickUp API · SQL · Excel automation
+No external link icon
+NACo Interactive AI Game
+Badge: Open source
+Subtitle: Sedna · NACo Conference · Summer 2025
+Description: AI-powered interactive game built to engage conference attendees and capture leads. Designed, built, and demoed the experience on the floor. 37+ participants engaged · measurable lift in lead capture.
+Technologies: Svelte · Ollama · Local LLM
+External link → https://github.com/nekesuresh/sednagame-small
+e) Final grid order (top to bottom, left to right in the 2-col grid):
+BlueRobins Platform (Live)
+Clinical Triage Tool (NDA)
+RFP Review Tool (NDA)
+Executive Reporting Layer (NDA)
+NACo Interactive AI Game (Open source)
+IntelliClaim.ai (Academic)
+Dr. COCO (Academic)
+Antibiotic Resistance Prediction (Academic)
+K Means Clustering with DTW Metric (Academic)
+7. Resume link
+Update every "Resume" link/button to: https://drive.google.com/file/d/1TWwQPAzFNr1XD_Hn3gRXziISrIlvGuI_/view?usp=sharing Open in a new tab (target="_blank" rel="noopener noreferrer").
+8. Remove Devpost button
+Remove the Devpost button from the social/links row entirely. Keep LinkedIn, GitHub, Email, and Resume.
+

@@ -1,15 +1,15 @@
 export const resumeData = {
   personalInfo: {
     name: "NEKETHA SURESH",
-    title: "Computer Science Professional",
-    summary: "Computer Science professional with expertise in Machine Learning, Web Development, and Data Analysis",
+    title: "Full Stack & AI Engineer",
+    summary: "Full Stack & AI Engineer with experience building production systems, LLM-powered tools, and clinical software.",
   },
   contactInfo: {
-    location: "Charlotte, North Carolina",
+    location: "San Francisco, CA",
     email: "sureshneketha@gmail.com",
     phone: "+1 (704)-222-6867",
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
+    linkedin: "https://www.linkedin.com/in/nekethasuresh/",
+    github: "https://github.com/nekesuresh",
     citizenship: "US Citizen"
   },
   education: [
@@ -18,7 +18,7 @@ export const resumeData = {
       degree: "Master of Science in Computer Science",
       gpa: "3.77/4",
       location: "Charlotte, North Carolina",
-      period: "2023 - Present",
+      period: "2023 - 2025",
       courses: [
         "AI-Driven Development",
         "Network Based Application Development",
@@ -46,108 +46,126 @@ export const resumeData = {
   ],
   experiences: [
     {
-      title: "Machine Learning Intern",
-      company: "Metayb",
-      location: "Chennai, Tamil Nadu",
-      period: "May - Nov 2022",
+      title: "Founding Engineer (Full Stack, Contract)",
+      company: "BlueRobins",
+      location: "Berkeley, CA · UC Berkeley Skydeck Pad-13",
+      period: "Dec 2025 – Apr 2026",
       responsibilities: [
-        "Engineered a custom time-series database engine, boosting data ingestion speed by 30%, critical for real-time analytics.",
-        "Implemented an LSTM neural network for sales forecasting, achieving 87% prediction accuracy, significantly enhancing decision-making processes.",
-        "Applied machine learning techniques, such as linear regression, to forecast customer lifetime value with 95% accuracy, directly supporting targeted customer retention and precision marketing initiatives.",
-        "Developed a logistic regression model to reduce customer churn, cutting churn rates by 10% and bolstering retention through data-driven insights."
+        "Joined as the founding engineer rebuilding the platform from an early-stage codebase into a production-ready Next.js + PostgreSQL system, shipping the first live deployment within 5 weeks and leaving behind a stable v1 with all core features and AI-powered chat in active use by customers.",
+        "Designed a multi-role PostgreSQL schema with role-based access control supporting 4 distinct user roles across enrollment, scheduling, and payments.",
+        "Built backend infrastructure including Stripe webhook handling for 7 subscription lifecycle events, covering edge cases like failed payments, plan changes, and refunds.",
+        "Owned onboarding for 3 interns who joined post-launch, guiding them through 30+ pull request reviews and establishing shared code quality standards."
       ]
     },
     {
-      title: "Data Analyst Intern",
-      company: "LingaTech",
-      location: "Pennsylvania, United States",
-      period: "Nov 2021 - Feb 2022",
+      title: "Artificial Intelligence Intern",
+      company: "Sedna Consulting Group",
+      location: "Philadelphia, PA",
+      period: "May 2025 – Aug 2025",
       responsibilities: [
-        "Performed predictive analytics on user behavior data using the Naive Bayes algorithm, enhancing forecast accuracy of business outcomes by 15%.",
-        "Led prescriptive analytics efforts using behavioral data, implementing a decision tree model that improved product satisfaction (measured by Net Promoter Score) by 20% and decreased decision latency by 25%.",
-        "Designed and deployed interactive data visualization dashboards in Tableau, utilizing API integrations for enhanced user experience and operational efficiency."
+        "Worked directly with internal stakeholders to scope and prototype an RFP review tool using Python, FastAPI, and LangChain, iterating with feedback from 6 reviewers across 3 review cycles.",
+        "Owned the feature end-to-end from gathering requirements through deployment and post-launch tuning, reducing manual review time by ~45% on the workflows it covered.",
+        "Built an integration layer connecting ClickUp, Excel, and SQL data sources so executives could pull common reports in seconds, cutting time-to-data from hours to under 30 seconds on the top 10 queries.",
+        "Designed and launched an AI-powered interactive game with Ollama and Svelte, showcased at the NACo Conference, engaging 37+ participants and increasing lead captures."
       ]
     },
     {
-      title: "Software Development Intern",
-      company: "Eminence Tech",
-      location: "Bangalore, Karnataka",
-      period: "Jun - Sep 2021",
+      title: "Full Stack Software Engineer",
+      company: "Apollo Trident",
+      location: "Remote",
+      period: "May 2023 – May 2025",
       responsibilities: [
-        "Transformed business requirements into actionable technical specifications using UML diagrams, facilitating agile software development for a new pharmacy management system.",
-        "Executed full-stack development with JavaScript, Node.js, and React, optimizing system scalability and user engagement.",
-        "Enhanced system performance by 30% through strategic middleware management and asynchronous programming in Node.js.",
-        "Utilized React.js profiling tools to optimize front-end performance, achieving a 25% efficiency increase in system operations."
+        "Joined as an early engineer contributing to a clinical triage tool used daily by 150+ doctors, nurses, and intake staff across 6 hospital departments.",
+        "Worked across the React, TypeScript, and Python stack, including the React intake UI, FastAPI services, and a PostgreSQL schema covering 50+ symptom and vitals fields, growing from frontend tickets to owning mid-sized features end-to-end by year 3.",
+        "Sat in on 4 rounds of user testing and a 3-week pilot per major release, working alongside senior engineers to translate clinician and hospital admin feedback into shippable changes.",
+        "Contributed to a project that cut average triage intake time from ~12 to under 4 minutes per patient, reached ~80% recommendation acceptance from nurses, and closed most post-launch issues within a day or two."
       ]
     }
   ],
-  researchExperience: [
-    {
-      title: "Research Assistant",
-      institution: "School Of Computer Science and Engineering",
-      company: "Vellore Institute of Technology, Chennai",
-      location: "Chennai, Tamil Nadu",
-      period: "Aug 2022 - Apr 2023",
-      responsibilities: [
-        "Participated in the publication of a paper titled 'Preclinical Diagnosis of Schizophrenia using EEG Time-Frequency Analysis during Motor Function Test and Verbal Fluency Test' under the guidance of Professor Tamilarasi.",
-        "Contributed to the development and implementation of signal processing algorithms, including the Multi-SynchroSqueezing Transform (MSST), for EEG data analysis in a pioneering study on preclinical schizophrenia diagnosis."
-      ]
-    }
-  ],
+  researchExperience: [],
   projects: [
+    {
+      title: "BlueRobins Platform",
+      subtitle: "Founding Engineer · Dec 2025 — Apr 2026",
+      description: "Rebuilt an early-stage codebase into a production-ready Next.js + PostgreSQL system. Shipped first live deployment in 5 weeks and left behind a stable v1 with AI-powered chat in active use by customers. v1 shipped in 5 weeks · 4 user roles · 7 Stripe lifecycle events · mentored 3 interns through 30+ PRs.",
+      technologies: ["Next.js", "PostgreSQL", "Stripe", "RBAC", "LLM chat"],
+      status: "Live" as const,
+      liveLink: "https://my.bluerobins.com"
+    },
+    {
+      title: "Clinical Triage Tool",
+      subtitle: "Full Stack & AI Engineer · May 2023 — May 2025 · Healthcare client",
+      description: "Contributed across React, TypeScript, and Python on a daily-use intake tool serving 150+ clinicians and intake staff across 6 hospital departments. Grew from frontend tickets to owning mid-sized features end-to-end. Triage intake cut from ~12 min to under 4 min per patient · ~80% recommendation acceptance from nurses. Screenshots and client name protected — happy to discuss on a call.",
+      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL"],
+      status: "NDA" as const,
+      liveLink: null
+    },
+    {
+      title: "RFP Review Tool",
+      subtitle: "AI Intern · Sedna Consulting · May — Aug 2025",
+      description: "Scoped and prototyped an LLM-powered RFP review tool with 6 internal reviewers across 3 review cycles. Owned the feature end-to-end — requirements through deployment and post-launch tuning. ~45% reduction in manual review time on covered workflows. Internal tool — happy to walk through architecture on a call.",
+      technologies: ["Python", "FastAPI", "LangChain", "RAG"],
+      status: "NDA" as const,
+      liveLink: null
+    },
+    {
+      title: "Executive Reporting Layer",
+      subtitle: "AI Intern · Sedna Consulting · Summer 2025",
+      description: "Built an integration layer connecting ClickUp, Excel, and SQL sources so executives could pull common reports in seconds instead of waiting on manual data pulls. Time-to-data on top 10 queries cut from hours to under 30 seconds. Internal tool — happy to discuss the integration design.",
+      technologies: ["Python", "ClickUp API", "SQL", "Excel automation"],
+      status: "NDA" as const,
+      liveLink: null
+    },
+    {
+      title: "NACo Interactive AI Game",
+      subtitle: "Sedna · NACo Conference · Summer 2025",
+      description: "AI-powered interactive game built to engage conference attendees and capture leads. Designed, built, and demoed the experience on the floor. 37+ participants engaged · measurable lift in lead capture.",
+      technologies: ["Svelte", "Ollama", "Local LLM"],
+      status: "Open source" as const,
+      liveLink: "https://github.com/nekesuresh/sednagame-small"
+    },
     {
       title: "IntelliClaim.ai",
       subtitle: "AI-driven Insurance Claims Assessment Solution",
       description: "Engineered and deployed IntelliClaim.ai, utilizing Python, TensorFlow, and React to incorporate multimodal AI, enhancing the accuracy of insurance claims processing and reducing fraud identification false positives by 30%.",
       technologies: ["Python", "TensorFlow", "React", "Machine Learning"],
-      liveLink: "https://devpost.com/software/intelliclaim-ai",
-      repoLink: "https://devpost.com/software/intelliclaim-ai"
+      status: "Academic" as const,
+      liveLink: "https://devpost.com/software/intelliclaim-ai"
     },
     {
       title: "Dr. COCO",
       subtitle: "AI-Powered Mental Health Support Tool for Children",
       description: "Engineered Dr. COCO, an AI chatbot leveraging Python, Flask, and OpenAI to identify early mental health issues in children, utilizing interactive games and storytelling for engagement.",
       technologies: ["Python", "Flask", "OpenAI", "NLP"],
-      liveLink: "https://devpost.com/software/dr-coco",
-      repoLink: "https://devpost.com/software/dr-coco"
-    },
-    {
-      title: "GenAI",
-      subtitle: "Generative AI Trend Visualization and Analysis",
-      description: "Developed a Single Page Application (SPA) using Angular and Node.js to visualize trends in generative artificial intelligence and automation across various industries.",
-      technologies: ["Angular", "Node.js", "Chart.js", "RESTful APIs"],
-      liveLink: "https://github.com/nekesuresh/genai-innovations",
-      repoLink: "https://github.com/nekesuresh/genai-innovations"
+      status: "Academic" as const,
+      liveLink: "https://devpost.com/software/dr-coco"
     },
     {
       title: "Antibiotic Resistance Prediction",
       subtitle: "Capstone Project: Predicting Antibiotic Resistance in Azithromycin and Ciprofloxacin",
       description: "Compared four machine learning models (XGBoost, Random Forest, SVM, Elastic Net) for antibiotic resistance prediction, with Random Forest achieving 91% accuracy and Elastic Net the fastest training time at 0.05 seconds per fold. Conducted 5-fold cross-validation on bacterial resistance phenotypes.",
       technologies: ["Python", "Machine Learning", "Random Forest", "XGBoost", "SVM"],
-      liveLink: "https://drive.google.com/file/d/1Z45NBbfQfl9ZxcwYZ_fHH-U-WRSNYKkb/view?usp=sharing",
-      repoLink: "https://drive.google.com/file/d/1Z45NBbfQfl9ZxcwYZ_fHH-U-WRSNYKkb/view?usp=sharing"
+      status: "Academic" as const,
+      liveLink: "https://drive.google.com/file/d/1Z45NBbfQfl9ZxcwYZ_fHH-U-WRSNYKkb/view?usp=sharing"
     },
     {
       title: "K Means Clustering with DTW Metric",
       subtitle: "Time Series Classification Using Dynamic Time Warping",
       description: "Implemented the DTW algorithm to find the best alignment between time series data using dynamic programming algorithms similar to the needleman-wunsch algorithm. Used DTW distance to classify time series data with KNN, achieving performance comparable to LSTM models.",
       technologies: ["Python", "Dynamic Programming", "K-Means", "Multiprocessing", "Time Series Analysis"],
-      liveLink: "https://github.com/nekesuresh/K-Means-Clustering-with-DTW-Metric",
-      repoLink: "https://github.com/nekesuresh/K-Means-Clustering-with-DTW-Metric"
+      status: "Academic" as const,
+      liveLink: "https://github.com/nekesuresh/K-Means-Clustering-with-DTW-Metric"
     }
   ],
   skills: {
     programming: [
-      "Python", "Java", "JavaScript", "HTML", "CSS", "React.js", 
-      "Angular", "Node.js", "Express", "Flask", "C++"
+      "TypeScript", "JavaScript (ES6+)", "Python", "SQL", "React.js", "Next.js", "Tailwind CSS", "HTML5", "CSS3"
     ],
-    data: [
-      "MySQL", "MongoDB", "TensorFlow", "PyTorch", "Scikit-Learn", 
-      "Pandas", "NumPy", "Tableau", "PowerBI"
+    backend: [
+      "Node.js", "FastAPI", "REST APIs", "Webhooks", "PostgreSQL", "Supabase", "Git", "CI/CD", "Docker"
     ],
-    tools: [
-      "Git", "Docker", "AWS", "Azure", "Agile", "Scrum", 
-      "SDLC", "UML", "DevOps", "Cybersecurity"
+    ai: [
+      "LangChain", "LLM Integration", "RAG", "Vector Search", "OpenAI API", "Anthropic API", "Prompt Engineering", "System Design", "Rapid Prototyping"
     ]
   }
 };

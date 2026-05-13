@@ -176,10 +176,12 @@ function App() {
               </motion.div>
             </div>
 
-            <div className="absolute bottom-11 flex flex-col items-center transform translate-y-1/2">
-              <p className="text-white/70 text-sm mb-2">Scroll Down</p>
-              <div className="w-5 h-5 border-2 border-primary rounded-full flex items-center justify-center animate-bounce">
-                <div className="w-2 h-2 bg-primary rounded-full"></div>
+            <div className="absolute bottom-6 left-0 right-0 flex flex-col items-center pointer-events-none">
+              <p className="text-white/50 text-xs mb-2 tracking-widest uppercase">Scroll</p>
+              <div className="animate-bounce">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-primary/70">
+                  <path d="M10 3v14M4 11l6 6 6-6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
             </div>
           </section>

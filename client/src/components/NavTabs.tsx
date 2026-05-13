@@ -11,9 +11,9 @@ interface NavTabsProps {
 const NavTabs = ({ activeTab, onTabChange }: NavTabsProps) => {
   const tabs: { id: Tab; label: string }[] = [
     { id: 'about', label: 'About' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'experience', label: 'Experience' },
     { id: 'projects', label: 'Projects' },
+    { id: 'experience', label: 'Experience' },
+    { id: 'skills', label: 'Skills' },
     { id: 'education', label: 'Education' },
   ];
 

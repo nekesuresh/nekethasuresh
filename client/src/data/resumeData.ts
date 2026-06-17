@@ -87,14 +87,6 @@ export const resumeData = {
   researchExperience: [],
   projects: [
     {
-      title: "Agentic Ingredient Analyzer",
-      subtitle: "Personal Project · 2026",
-      description: "Consumer web app (Next.js, FastAPI, Python) that breaks down product ingredient lists with a multi step LLM agent: tool use to look up ingredients, RAG over a curated reference corpus (Postgres and pgvector), and structured outputs that flag concerns and explain them in plain language, gated by an evals harness that catches quality regressions before release.",
-      technologies: ["Next.js", "FastAPI", "Python", "PostgreSQL", "pgvector", "RAG", "LLM agents"],
-      status: "Live" as const,
-      liveLink: null
-    },
-    {
       title: "BlueRobins Platform",
       subtitle: "Founding Engineer · Dec 2025 — Apr 2026",
       description: "Rebuilt an early-stage codebase into a production-ready Next.js + PostgreSQL system. Shipped first live deployment in 5 weeks and left behind a stable v1 with AI-powered chat in active use by customers. v1 shipped in 5 weeks · 4 user roles · 7 Stripe lifecycle events · mentored 3 interns through 30+ PRs.",
@@ -116,6 +108,14 @@ export const resumeData = {
       description: "Scoped and prototyped a cloud-based multi-agent RAG system for RFP review with retrieval and drafting agents, a human-in-the-loop, and source documents stored in Amazon S3. Iterating across 3 review cycles with 6 reviewers, cutting manual review time ~45% on covered workflows. Containerized with Docker and shipped to AWS EKS. Internal tool — happy to walk through architecture on a call.",
       technologies: ["Python", "FastAPI", "LangChain", "RAG", "Amazon S3", "Docker", "AWS EKS"],
       status: "NDA" as const,
+      liveLink: null
+    },
+    {
+      title: "Agentic Ingredient Analyzer",
+      subtitle: "Personal Project · 2026",
+      description: "Consumer web app (Next.js, FastAPI, Python) that breaks down product ingredient lists with a multi-step LLM agent: tool use to look up ingredients, RAG over a curated reference corpus (Postgres and pgvector), and structured outputs that flag concerns and explain them in plain language, gated by an evals harness that catches quality regressions before release.",
+      technologies: ["Next.js", "FastAPI", "Python", "PostgreSQL", "pgvector", "RAG", "LLM agents"],
+      status: "Live" as const,
       liveLink: null
     },
     {

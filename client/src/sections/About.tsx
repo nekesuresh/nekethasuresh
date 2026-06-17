@@ -49,10 +49,10 @@ const About = () => {
               <div className="lg:w-3/4">                
                 <div className="space-y-4 text-white/80">
                   <p className="text-white/80">
-                    I'm a Full Stack & AI Engineer based in San Francisco. Most recently I was the founding engineer at BlueRobins (UC Berkeley Skydeck), where I rebuilt the platform into a production Next.js + PostgreSQL system and shipped v1 in 5 weeks. Before that I spent two years as a full stack engineer on a clinical triage tool used daily by 150+ clinicians across 6 hospital departments, and a summer at Sedna Consulting building applied AI tools.
+                    Full stack engineer who has often been the early engineer on small teams — the person who builds the product and the pipeline that ships it. Over three years I've taken clinical and B2B tools from rough prototype to production, owning React and FastAPI end to end, standing up the containerized CI/CD that deploys them, and turning real user behavior into the signal that makes the product better.
                   </p>
                   <p className="text-white/80">
-                    I work across React/Next.js, FastAPI, PostgreSQL, and LLM-powered systems — usually owning features from requirements through deployment.
+                    Drawn to the developer experience work that makes a whole team faster: design systems, review tooling, and AI coding assistants. I learn a new stack by shipping on it.
                   </p>
                   <p className="text-white/80">
                     I'm currently open to: <span className="text-primary font-medium">full-time engineering roles</span> · <span className="text-primary font-medium">independent contract & freelance projects</span>.
@@ -65,13 +65,13 @@ const About = () => {
                         <span className="text-primary">Full Stack Development</span> — React, Next.js, FastAPI, PostgreSQL, end-to-end ownership
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Applied AI</span> — LLM integration, RAG, agentic workflows, AI-powered UX
+                        <span className="text-primary">Applied AI</span> — LLM integration, RAG, agentic workflows, AI coding assistants
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Production Shipping</span> — recent v1 from scratch in 5 weeks for an early-stage startup
+                        <span className="text-primary">Production Shipping</span> — containerized CI/CD, Docker, Kubernetes, AWS EKS
                       </li>
                       <li className="text-white/80">
-                        <span className="text-primary">Client Collaboration</span> — multi-stakeholder scoping, iteration cycles, post-launch tuning
+                        <span className="text-primary">Early-team Engineering</span> — prototype to production, design systems, mentoring, code quality
                       </li>
                     </ul>
                   </div>

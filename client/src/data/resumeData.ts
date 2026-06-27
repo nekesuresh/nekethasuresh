@@ -171,8 +171,7 @@ export const resumeData = {
       "technical design docs", "Tableau", "Power BI", "QuickSight"
     ],
     leadership: [
-      "founding team leadership", "mentorship", "influence without authority",
-      "working with ML & backend teams", "code review standards", "documentation"
+      "founding team leadership", "mentorship", "stakeholder management"
     ]
   }
 };

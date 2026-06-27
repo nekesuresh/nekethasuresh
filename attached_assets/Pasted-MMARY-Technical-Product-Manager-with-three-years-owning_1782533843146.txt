@@ -1,0 +1,50 @@
+MMARY
+Technical Product Manager with three years owning AI products end to end, engineer by background. I work close to users
+and to ML and backend teams alike: reading the design docs, defining the eval metrics, and making the quality, latency, cost,
+and reliability trade offs that turn nondeterministic model behavior into product users trust. Track record taking AI from zero to
+one in real world settings: a clinical recommendation tool used daily by 150+ clinicians, a multi agent LLM system that cut
+review time ~45%, and a platform taken from broken codebase to 250 users in five weeks.
+EXPERIENCE
+BlueRobins (UC Berkeley SkyDeck) Dec 2025 – Apr 2026
+Founding Engineer, Product Lead Berkeley, CA
+• Shipped v1 in 5 weeks as the founding product and engineering lead: interviewed customers and the founder to isolate the
+real problem, prototyped with the designer in Cursor and GitHub Copilot, and validated each build with users before and
+after release.
+• Led 3 interns to independent feature ownership across 30+ PR reviews, set the code quality and review standards that
+scaled the platform to 250 users, and kept velocity high with tight documentation and relentless feedback loops.
+• Drove core product calls with the CEO and SkyDeck mentors: ran pricing experiments to find the packaging that stuck, and
+used product usage analytics to decide what to build, keep, and cut before scaling.
+• Wrote the PRDs and shipped the build for multi role access across 4 user types and Stripe webhook handling across 7
+subscription lifecycle events, powering reliable subscription commerce.
+Sedna Consulting Group May 2025 – Aug 2025
+AI Operations Associate Philadelphia, PA (Remote)
+• Owned an internal AI product end to end: a multi agent RAG system (Python, FastAPI, LangChain) that auto drafts RFP
+responses behind human in the loop approval gates. Scoped it with the internal RFP writer, prototyped, deployed, and
+tuned, cutting drafting and review time ~45% (200+ hours per quarter across 10+ clients).
+• Defined the approval gates and eval checks that kept generated drafts trustworthy, then demoed the tool at the NACo
+Conference to 37+ external stakeholders, validating product market signals and capturing qualified leads.
+Apollo Trident May 2022 – May 2025
+Associate Product Manager Dallas, TX (Remote)
+• Owned the flagship override with reason feature from insight to launch on an AI clinical triage platform used daily by 150+
+clinicians across 6 hospital departments: sat with clinicians, saw they overrode the model's triage recommendations with no
+way to capture why, then wrote the specs, partnered with engineering, and ran a 3 week pilot as the go live gate. Reason
+capture rose from near zero to 90%+ and recommendation acceptance lifted to ~80%.
+• Turned that override signal into the team's quality loop: instrumented structured reason capture as labeled human
+feedback, defined the acceptance and override metrics that became our north star for recommendation quality, and used
+them to surface where model guidance drifted from clinical judgment.
+• Cut triage intake time 65% (about 12 minutes to under 4) by iterating workflow design on user feedback, A/B testing
+changes, and validating each release before rollout, trading speed against clinician trust at every step.
+• Influenced a roadmap call without authority: ran a demand gap analysis across 50+ clinical fields (SQL, Python),
+recommended reallocating staffing to three under served units, and won leadership approval, lifting patient flow throughput
+~18% the next quarter.
+EDUCATION
+University of North Carolina at Charlotte | M.S. Computer Science, GPA 3.77 / 4.0 2023 – 2025
+SKILLS
+• AI Systems & Evaluation: LLM based systems, multi agent systems, RAG, eval frameworks (offline metrics, online
+experiments, human feedback), prompt and pipeline iteration, hallucination, bias and drift mitigation, guardrails, human in
+the loop
+• Product: PRDs, specs and acceptance criteria, roadmap prioritization, trade off analysis across quality, latency, cost,
+reliability and UX, A/B testing and experimentation, product usage analytics, zero to one product
+• Engineering & Data: Python, FastAPI, LangChain, SQL, system design, reading and reviewing technical design docs;
+Tableau, Power BI, QuickSight
+• Leadership & Collaboration: founding team leadership, mentorship, influence without authority, working with M

@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Server, Terminal, Brain } from "lucide-react";
+import { Brain, Target, Code, Users } from "lucide-react";
 import { resumeData } from "@/data/resumeData";
 
 const Skills = () => {
@@ -7,27 +7,27 @@ const Skills = () => {
   
   const categories = [
     {
-      label: "Languages & Frontend",
-      icon: <Code className="h-5 w-5 text-primary mr-2" />,
-      items: skills.languages,
+      label: "AI Systems & Evaluation",
+      icon: <Brain className="h-5 w-5 text-primary mr-2" />,
+      items: skills.aiSystems,
       pill: "bg-primary/10 text-white/90 hover:bg-primary/20"
     },
     {
-      label: "Backend & APIs",
-      icon: <Server className="h-5 w-5 text-green-500 mr-2" />,
-      items: skills.backend,
+      label: "Product",
+      icon: <Target className="h-5 w-5 text-green-500 mr-2" />,
+      items: skills.product,
       pill: "bg-green-500/10 text-white/90 hover:bg-green-500/20"
     },
     {
-      label: "DevOps & Infra",
-      icon: <Terminal className="h-5 w-5 text-orange-400 mr-2" />,
-      items: skills.devops,
+      label: "Engineering & Data",
+      icon: <Code className="h-5 w-5 text-orange-400 mr-2" />,
+      items: skills.engineering,
       pill: "bg-orange-400/10 text-white/90 hover:bg-orange-400/20"
     },
     {
-      label: "AI / LLM Tooling",
-      icon: <Brain className="h-5 w-5 text-primary mr-2" />,
-      items: skills.ai,
+      label: "Leadership & Collaboration",
+      icon: <Users className="h-5 w-5 text-primary mr-2" />,
+      items: skills.leadership,
       pill: "bg-primary/10 text-white/90 hover:bg-primary/20"
     }
   ];

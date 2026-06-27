@@ -1,8 +1,8 @@
 export const resumeData = {
   personalInfo: {
     name: "NEKETHA SURESH",
-    title: "Full Stack & AI Engineer",
-    summary: "Full stack engineer who has often been the early engineer on small teams, the person who builds the product and the pipeline that ships it. Over three years has taken clinical and B2B tools from rough prototype to production, owning React and FastAPI end to end, standing up the containerized CI/CD that deploys them, and turning real user behavior into the signal that makes the product better.",
+    title: "Technical Product Manager & AI Builder",
+    summary: "Technical Product Manager with three years owning AI products end to end, engineer by background. I work close to users and to ML and backend teams alike: reading the design docs, defining the eval metrics, and making the quality, latency, cost, and reliability trade-offs that turn nondeterministic model behavior into product users trust.",
   },
   contactInfo: {
     location: "San Francisco, CA",
@@ -46,41 +46,37 @@ export const resumeData = {
   ],
   experiences: [
     {
-      title: "Founding Engineer (Full Stack, Contract)",
+      title: "Founding Engineer, Product Lead",
       company: "BlueRobins",
       location: "Berkeley, CA · UC Berkeley SkyDeck Pad-13",
       period: "Dec 2025 – Apr 2026",
       responsibilities: [
-        "Rebuilt an early stage codebase into a production Next.js and PostgreSQL platform, shipping the first live deployment in 5 weeks and leaving a stable v1, including AI powered chat, in active customer use.",
-        "Designed a multi role PostgreSQL schema with RBAC across 4 user types spanning enrollment, scheduling, and payments.",
-        "Integrated Stripe webhook handling for 7 subscription lifecycle events (failed payments, plan changes, refunds), powering reliable subscription commerce.",
-        "Accelerated prototype to production with GitHub Copilot and Cursor, and onboarded 3 interns through 30+ PR reviews, written code quality standards, and a structured ramp to independent contributors."
+        "Shipped v1 in 5 weeks as the founding product and engineering lead: interviewed customers and the founder to isolate the real problem, prototyped with the designer in Cursor and GitHub Copilot, and validated each build with users before and after release.",
+        "Led 3 interns to independent feature ownership across 30+ PR reviews, set the code quality and review standards that scaled the platform to 250 users, and kept velocity high with tight documentation and relentless feedback loops.",
+        "Drove core product calls with the CEO and SkyDeck mentors: ran pricing experiments to find the packaging that stuck, and used product usage analytics to decide what to build, keep, and cut before scaling.",
+        "Wrote the PRDs and shipped the build for multi-role access across 4 user types and Stripe webhook handling across 7 subscription lifecycle events, powering reliable subscription commerce."
       ]
     },
     {
-      title: "Artificial Intelligence Intern",
+      title: "AI Operations Associate",
       company: "Sedna Consulting Group",
-      location: "Remote (US)",
+      location: "Philadelphia, PA (Remote)",
       period: "May 2025 – Aug 2025",
       responsibilities: [
-        "Partnered with internal stakeholders to scope and prototype a cloud based multi agent RAG system for RFP review (Python, FastAPI, LangChain) with retrieval and drafting agents, a human in the loop, and source documents stored in Amazon S3, iterating across 3 review cycles with 6 reviewers and cutting manual review time about 45% on covered workflows.",
-        "Owned the feature end to end, from requirements through post launch tuning, containerizing the service with Docker and shipping it to the team's AWS EKS cluster, and turning a rough concept into a shipped internal product.",
-        "Designed, built and demoed a real time offline LLM application (Ollama, Svelte) for the NACo Conference."
+        "Owned an internal AI product end to end: a multi-agent RAG system (Python, FastAPI, LangChain) that auto-drafts RFP responses behind human-in-the-loop approval gates. Scoped it with the internal RFP writer, prototyped, deployed, and tuned, cutting drafting and review time ~45% (200+ hours per quarter across 10+ clients).",
+        "Defined the approval gates and eval checks that kept generated drafts trustworthy, then demoed the tool at the NACo Conference to 37+ external stakeholders, validating product-market signals and capturing qualified leads."
       ]
     },
     {
-      title: "Full Stack Software Engineer",
+      title: "Associate Product Manager",
       company: "Apollo Trident",
-      location: "Remote (US)",
+      location: "Dallas, TX (Remote)",
       period: "May 2022 – May 2025",
       responsibilities: [
-        "Embedded as an early engineer on a clinical triage platform used daily by 150+ doctors, nurses, and intake staff across 6 hospital departments, wearing full stack and infrastructure hats and growing from frontend tickets to owning mid sized features and the delivery pipeline.",
-        "Contributed to building full stack web applications across Python, TypeScript, JavaScript, React, HTML, and CSS: intake UI, FastAPI services, a PostgreSQL schema spanning 50+ symptom and vitals fields, SQLite for local and test data, and Amazon S3 for clinical document and image storage.",
-        "Helped build and operate the platform's GitLab CI/CD and containerized deployment, shipping Docker images to Kubernetes on AWS EKS with Helm charts, which cut release friction across the team.",
-        "Supported the build and maintenance of a shared frontend component library and design tokens used across product modules, keeping interfaces consistent and accelerating UI build.",
-        "Built internal dashboards that pulled live data from the platform's APIs into SQL backed views, giving the team visibility into adoption, usage, and release health.",
-        "Built and owned an override with reason flow on the triage recommendation engine that turned live clinician usage into an evaluation signal, lifting reason capture from near zero to 90%+ and recommendation acceptance to about 80%, and cut average intake from about 12 minutes to under 4.",
-        "Worked in an Agile team, integrated GitHub Copilot to speed development, ran user testing and a 3 week pilot per release, and mentored newer engineers."
+        "Owned the flagship override-with-reason feature from insight to launch on an AI clinical triage platform used daily by 150+ clinicians across 6 hospital departments: sat with clinicians, saw they overrode the model's triage recommendations with no way to capture why, then wrote the specs, partnered with engineering, and ran a 3-week pilot as the go-live gate. Reason capture rose from near zero to 90%+ and recommendation acceptance lifted to ~80%.",
+        "Turned that override signal into the team's quality loop: instrumented structured reason capture as labeled human feedback, defined the acceptance and override metrics that became the north star for recommendation quality, and used them to surface where model guidance drifted from clinical judgment.",
+        "Cut triage intake time 65% (about 12 minutes to under 4) by iterating workflow design on user feedback, A/B testing changes, and validating each release before rollout, trading speed against clinician trust at every step.",
+        "Influenced a roadmap call without authority: ran a demand gap analysis across 50+ clinical fields (SQL, Python), recommended reallocating staffing to three under-served units, and won leadership approval, lifting patient flow throughput ~18% the next quarter."
       ]
     }
   ],
@@ -88,24 +84,24 @@ export const resumeData = {
   projects: [
     {
       title: "BlueRobins Platform",
-      subtitle: "Founding Engineer · Dec 2025 — Apr 2026",
-      description: "Rebuilt an early-stage codebase into a production-ready Next.js + PostgreSQL system. Shipped first live deployment in 5 weeks and left behind a stable v1 with AI-powered chat in active use by customers. v1 shipped in 5 weeks · 4 user roles · 7 Stripe lifecycle events · mentored 3 interns through 30+ PRs.",
+      subtitle: "Founding Engineer, Product Lead · Dec 2025 — Apr 2026",
+      description: "Shipped v1 in 5 weeks as the founding product and engineering lead. Scaled to 250 users with AI-powered chat, multi-role access, and reliable Stripe subscription commerce. Ran pricing experiments, used usage analytics to decide what to build, and led 3 interns through 30+ PRs.",
       technologies: ["Next.js", "PostgreSQL", "Stripe", "RBAC", "LLM chat"],
       status: "Live" as const,
       liveLink: "https://my.bluerobins.com"
     },
     {
       title: "Clinical Triage Tool",
-      subtitle: "Full Stack Software Engineer · May 2022 — May 2025 · Healthcare client",
-      description: "Contributed across React, TypeScript, and Python on a daily-use intake tool serving 150+ clinicians and intake staff across 6 hospital departments. Grew from frontend tickets to owning mid-sized features end-to-end. Triage intake cut from ~12 min to under 4 min per patient · ~80% recommendation acceptance from nurses. Screenshots and client name protected — happy to discuss on a call.",
-      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL", "Docker", "AWS EKS"],
+      subtitle: "Associate Product Manager · May 2022 — May 2025 · Healthcare client",
+      description: "Owned the override-with-reason feature on an AI triage platform used daily by 150+ clinicians across 6 hospital departments. Reason capture rose from near zero to 90%+, recommendation acceptance to ~80%, and intake time dropped 65% (~12 min to under 4). Screenshots and client name protected — happy to discuss on a call.",
+      technologies: ["React", "TypeScript", "FastAPI", "PostgreSQL", "Python", "SQL"],
       status: "NDA" as const,
       liveLink: null
     },
     {
       title: "RFP Review Tool",
-      subtitle: "AI Intern · Sedna Consulting · May — Aug 2025",
-      description: "Scoped and prototyped a cloud-based multi-agent RAG system for RFP review with retrieval and drafting agents, a human-in-the-loop, and source documents stored in Amazon S3. Iterating across 3 review cycles with 6 reviewers, cutting manual review time ~45% on covered workflows. Containerized with Docker and shipped to AWS EKS. Internal tool — happy to walk through architecture on a call.",
+      subtitle: "AI Operations Associate · Sedna Consulting · May — Aug 2025",
+      description: "Owned an internal AI product end to end: a multi-agent RAG system that auto-drafts RFP responses behind human-in-the-loop approval gates. Cut drafting and review time ~45% (200+ hours per quarter across 10+ clients). Defined eval checks that kept generated drafts trustworthy. Internal tool — happy to walk through the product and architecture on a call.",
       technologies: ["Python", "FastAPI", "LangChain", "RAG", "Amazon S3", "Docker", "AWS EKS"],
       status: "NDA" as const,
       liveLink: null
@@ -121,7 +117,7 @@ export const resumeData = {
     {
       title: "NACo Interactive AI Game",
       subtitle: "Sedna · NACo Conference · Summer 2025",
-      description: "AI-powered interactive game built to engage conference attendees and capture leads. Designed, built, and demoed the experience on the floor. 37+ participants engaged · measurable lift in lead capture.",
+      description: "AI-powered interactive game built to engage conference attendees and capture leads. Designed, built, and demoed the experience on the floor — then used it as a live product-market signal validation. 37+ participants engaged · measurable lift in lead capture.",
       technologies: ["Svelte", "Ollama", "Local LLM"],
       status: "Open source" as const,
       liveLink: "https://github.com/nekesuresh/sednagame-small"
@@ -160,22 +156,23 @@ export const resumeData = {
     }
   ],
   skills: {
-    languages: [
-      "Python", "TypeScript", "JavaScript (ES6+)", "SQL", "HTML5", "CSS3",
-      "React", "Next.js", "Tailwind CSS", "design systems", "CSS tokens", "shared component libraries"
+    aiSystems: [
+      "LLM-based systems", "multi-agent systems", "RAG", "eval frameworks",
+      "offline metrics", "online experiments", "human feedback", "prompt & pipeline iteration",
+      "hallucination mitigation", "bias & drift mitigation", "guardrails", "human-in-the-loop"
     ],
-    backend: [
-      "FastAPI", "Node.js", "REST APIs", "webhooks", "PostgreSQL", "SQLite",
-      "Supabase", "Redis", "Amazon S3"
+    product: [
+      "PRDs & specs", "acceptance criteria", "roadmap prioritization",
+      "quality / latency / cost / reliability trade-offs", "A/B testing & experimentation",
+      "product usage analytics", "zero-to-one product", "pricing experiments"
     ],
-    devops: [
-      "Docker", "Kubernetes", "AWS EKS", "Helm", "GitLab CI/CD", "GitHub Actions",
-      "CI/CD", "git workflow automation", "data pipelines", "Agile"
+    engineering: [
+      "Python", "FastAPI", "LangChain", "SQL", "system design",
+      "technical design docs", "Tableau", "Power BI", "QuickSight"
     ],
-    ai: [
-      "Prompt engineering", "AI agents & tool use", "GitHub Copilot", "Cursor",
-      "RAG", "pgvector", "evals", "Langfuse", "structured outputs",
-      "OpenAI", "Anthropic (Claude)", "Gemini", "LangChain"
+    leadership: [
+      "founding team leadership", "mentorship", "influence without authority",
+      "working with ML & backend teams", "code review standards", "documentation"
     ]
   }
 };

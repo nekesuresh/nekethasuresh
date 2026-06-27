@@ -118,10 +118,10 @@ function App() {
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
                 <p className="futuristic-subtitle text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-4">
-                  Full Stack & AI Engineer
+                  Technical Product Manager & AI Builder
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 mb-3">
-                  {["Full Stack", "AI/ML", "Founding Engineer", "MS CS"].map((chip) => (
+                  {["Technical PM", "AI Products", "Zero to One", "MS CS"].map((chip) => (
                     <span 
                       key={chip}
                       className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20 text-sm font-medium"

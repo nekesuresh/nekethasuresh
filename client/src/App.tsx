@@ -165,7 +165,7 @@ function App() {
                     Email
                   </a>
                   <a 
-                    href="https://drive.google.com/file/d/1TWwQPAzFNr1XD_Hn3gRXziISrIlvGuI_/view?usp=sharing" 
+                    href="/Neketha_Suresh_Resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="tech-card px-4 py-2 rounded-md neon-border m-1"
